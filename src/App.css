@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Amiri, sans-serif;
+    background-color: aqua;
+}
+.App {
+  padding: 20px;
+    text-align: center;
+}
+.title{
+    margin-bottom: 10px;
+    color: #282c34;
+    font-size: 2rem;
+}
+.movie-list {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 70%;
+    text-align: left;
+    background-color: #1c1c1c;
+}
+.movie-card {
+
+}
