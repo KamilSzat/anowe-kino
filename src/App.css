@@ -21,5 +21,37 @@ body {
     background-color: #1c1c1c;
 }
 .movie-card {
-
+    width: 220px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px aqua;
+    background-color: aquamarine;
+    transition: transform 0.2s;
+}
+.movie-card:hover{
+    transform: scale(1.05);
+}
+.movie-img{
+    width:100%;
+    border-radius: 8px;
+}
+.movie-title{
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+    color: #111;
+}
+.movie-genre, .movie-times{
+    font-size: 14px;
+    margin: 5px 0;
+    color:#333;
+}
+.premiere{
+    display: inline-block;
+    margin-top: 8px;
+    padding: 5px 10px;
+    background-color: red;
+    color: wheat;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: bold;
 }
