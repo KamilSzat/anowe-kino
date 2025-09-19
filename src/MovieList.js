@@ -20,7 +20,7 @@ const movies = [
     },
     {
         title: 'TEŚCIOWIE 3',
-        genre: 'komedia',
+        genre: 'Komedia',
         duration: 120,
         times: ['16:00', '18:00', '20:15'],
         image: 'https://www.stylowy.net/data/film/38/3833_500x720.jpg',
@@ -43,14 +43,15 @@ const movies = [
         premiere: false,
     },
 ];
-function MovieList(){
-    return(
-        <div className="muvie-list">
-            {movies.map((movie, index) => (
-                <MovieCard key={index} movie={movie} />
+
+function MovieList() {
+    return (
+        <div className="movie-list">
+            {movies.map((movie) => (
+                <MovieCard key={movie.title} movie={movie} />
             ))}
         </div>
     );
 }
-export default MovieList;
 
+export default MovieList;
